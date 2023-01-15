@@ -41,6 +41,7 @@ function fetchIp() {
 
     }).catch(error => {
         console.log(error)
+        alert(error + " | error => make sure you are not working with adBlock")
     })
 
     input1.value = ""
