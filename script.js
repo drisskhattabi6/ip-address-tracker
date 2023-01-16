@@ -41,7 +41,7 @@ function fetchIp() {
 
     }).catch(error => {
         console.log(error)
-        alert(error + " | error => make sure you are not working with adBlock")
+        alert(error + " \n==> 'error' \n==> make sure you are not working with adBlock \n==> or this IP Address not exist!!!")
     })
 
     input1.value = ""
